@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/*
+ * WordPress front-end styles
+ */
+
+// Global settings and overwrites
+@import "styles/settings";
+
+// Import Bootstrap framework - view partial for modules
+@import "styles/bootstrap";
+
+// Extend framework
+@import "styles/extensions/colors";
+@import "styles/extensions/ui";
+
+// Custom styles
+@import "styles/custom/base";
+@import "styles/custom/theme";
+@import "styles/custom/helpers";
+
+// editor styles are the front-end text styles also called into the wysiwyg
+@import "styles/custom/editor";

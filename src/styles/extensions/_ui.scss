@@ -1,0 +1,19 @@
+/*
+ * General Bootstrap UI extension
+ */
+
+ body {
+  padding-top: 3.5em; // for fixed top nav
+ }
+
+.skippy:focus {
+  z-index: 1031;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline-block;
+  background: darken($primary, 10%);
+  padding: 1em;
+  top: 0;
+  color: white;
+}
